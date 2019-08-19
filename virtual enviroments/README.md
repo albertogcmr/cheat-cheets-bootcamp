@@ -1,13 +1,31 @@
+## Installation
+
+```
+$ sudo apt-get install python3-venv
+```
+
+Forma alternativa: 
+
+```
+$ pip3 install virtualenv
+```
+
 ## Create virtual environment
 
 https://realpython.com/python-virtual-environments-a-primer/
 
-Create a new virtual environment inside the directory
+Create a new virtual environment inside the directory. 
 
 ```
 $ python3 -m venv env
 $ source env/bin/activate
 (env) $
+```
+
+Now you can work. 
+
+```
+(env) $ code main.py
 ```
 
 Para desactivar el entorno virtual
@@ -21,13 +39,13 @@ NOTA: En este ejemplo generemos los ficheros del entorno virtual en la carpeta `
 
 ## Requirements
 
-```
-(env) $ pip freeze >> requirements.txt
-```
+El siguiente comando crea un fichero llamado `requirements.txt` que lista las dependencias que necesita el entorno virtual que has creado.
 
-Este comando crea un fichero llamado `requirements.txt` que lista las dependencias que necesita el entorno virtual que has creado. 
+```
+(env) $ pip freeze > requirements.txt
+``` 
 
-Si heredas un proyecto que incluye un archivo de este tipo para instalar las dependencias que necesitas usa el siguiente comando. 
+En caso de que clones un proyecto que incluye un archivo de este tipo, para instalar las dependencias que necesitas usa el siguiente comando. 
 
 ```
 (env) $ pip install -r requirements.txt
