@@ -17,6 +17,8 @@ Para desactivar el entorno virtual
 $
 ```
 
+NOTA: En este ejemplo generemos los ficheros del entorno virtual en la carpeta `env` de la carpeta actual. Lo ideal es crear estos entornos en una carpeta **ajena** al proyecto actual. Lo que sí debería estar incluido es el fichero requirements.txt
+
 ## Requirements
 
 ```
