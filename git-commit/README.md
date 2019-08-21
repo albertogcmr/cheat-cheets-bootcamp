@@ -34,3 +34,18 @@ Ahora que ya está todo el contenido de tu rama new-branch en tu github, se pued
 3. Poner el título adecuado a la pull request para que sea fácilmente localizable, debería ser similar a: 
 
 * **[lab-functional-programming] [datamad0819] Nombre Apellido**
+
+## Upstream
+
+En caso de que se añada nuevo contenido al repositorio que habéis hecho Fork y Clone, como cuando se incluyen ejercicios adicionales, hay que añadir un nuevo remoto. 
+
+1. Copiamos la URL del repositorio original desde el botón Clone or Download. 
+
+![](./images/new-pull-request.png)
+
+2. Añadirmos la nueva fuente de datos a nuestro git. 
+
+```
+(master) $ git remote add upstream URL
+(master) $ git pull upstream master
+```
