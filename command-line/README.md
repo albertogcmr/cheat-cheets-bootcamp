@@ -19,7 +19,7 @@ $ pwd # Prints working directory
 ```shell
 $ mkdir new_directory_name # Makes a new directory at working directory
 $ mkdir path  # Makes a new directory at any path
-$ rmdir path # Removes empty directoryies
+$ rmdir path # Removes empty directories
 $ rm # Removes both files and empty directories
 $ rm -r # Removes both files and directories, even if they are not empty
 ```
