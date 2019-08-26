@@ -33,3 +33,7 @@ $ echo "Hello world" >> new_file.txt # Creates a new file at working directory a
 ## Usage
 * ```control + c``` : shifts to a new line without executing the current one
 * ```open .``` : opens the current file or folder in file explorer
+
+## Links
+
+* [Command Line Crash Course](https://gist.github.com/hofmannsven/8392477)
