@@ -57,7 +57,7 @@ def combine(a, b):
     else: 
         return a
 
-df_pokemon['combo'] = df_pokemon.apply(lambda x: combine(x['Type 2'], x['Type 2']), axis=1)
+df_pokemon['combo'] = df_pokemon.apply(lambda x: combine(x['Type 1'], x['Type 2']), axis=1)
 ```
 
 2. Crea dos columnas a partir de una. 
